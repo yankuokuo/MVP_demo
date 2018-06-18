@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/main_et01"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:background="#00FFCC"
+        android:hint="请输入账号"
+        />
+    <EditText
+        android:id="@+id/main_et02"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:hint="请输入密码"
+        android:background="#00FFCC"
+        android:layout_below="@id/main_et01"
+        />
+
+    <Button
+        android:id="@+id/main_denglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/mian_zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_centerVertical="true"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/main_fx"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/umeng_socialize_qq"
+         />
+
+    <Button
+        android:id="@+id/main_code"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/main_fx"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/a_s"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:textSize="30dp"
+        android:text="XXX"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/main_text"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/umeng_socialize_qq" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="190dp"
+        android:layout_marginStart="147dp"
+        android:text="QQ名称："
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="147dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_text"
+        android:layout_marginLeft="147dp"
+        android:text="QQ性别："
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/main_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/main_text"
+        android:layout_below="@+id/main_text"
+        android:textSize="30dp"
+        android:text="XXX"
+        android:layout_alignLeft="@+id/main_text" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_text"
+        android:layout_toStartOf="@+id/main_text"
+        android:text="QQ头像："
+        android:textSize="30dp"
+        android:layout_toLeftOf="@+id/main_text" />
+</RelativeLayout>
